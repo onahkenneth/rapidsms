@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # vim: ai ts=4 sts=4 et sw=4
 
-from django.utils.encoding import python_2_unicode_compatible
+from six import python_2_unicode_compatible
 
 from rapidsms.utils.modules import import_class
 
